@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Stylish 登入</title>
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/profile.css" />
+        <meta
+            name="description"
+            content="This website collects all the most fashionable clothing accessories for you to choose"
+        />
+        <script type="module" src="js/fbProfile.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-4Z9J807DVT"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-4Z9J807DVT');
+        </script>
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="top-nav">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" /></a>
+                </div>
+                <nav>
+                    <div class="item">
+                        <a href="index.html?tag=women">女裝</a>
+                    </div>
+                    <div class="item">
+                        <a href="index.html?tag=men"> 男裝</a>
+                    </div>
+                    <div class="item">
+                        <a href="index.html?tag=accessories">配件</a>
+                    </div>
+                </nav>
+                <div class="feature">
+                    <form class="item-search" method="get" action="./">
+                        <input
+                            class="search"
+                            type="text"
+                            name="keyword"
+                            value=""
+                        />
+                        <div class="search-img">
+                            <img src="images/search.png" />
+                        </div>
+                        <div class="search-img1">
+                            <img src="images/search.png" />
+                        </div>
+                    </form>
+                    <div class="item-feature">
+                        <a href="./cart.html">
+                            <img src="images/cart.png" />
+                            <div class="cart-number"></div>
+                        </a>
+                    </div>
+                    <div class="item-feature login">
+                        <a href="#"><img src="images/member.png" /></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="small-topnav">
+            <div class="item">
+                <a href="index.html?tag=women">女裝</a>
+            </div>
+            <div class="item">
+                <a href="index.html?tag=men"> 男裝</a>
+            </div>
+            <div class="item">
+                <a href="index.html?tag=accessories">配件</a>
+            </div>
+        </nav>
+
+        <nav class="small-bottomnav">
+            <div class="item">
+                <a href="./cart.html">
+                    <img src="images/cart-mobile.png" />
+                    <span class="word">購物車</span>
+                    <div class="cart-number-bottom"></div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" class="login-1">
+                    <img src="images/member-mobile.png" />
+                    <span class="word">會員</span>
+                </a>
+            </div>
+        </nav>
+        <main class="main-profile">
+            <div class="main-content">用戶登錄</div>
+            <div class="user-name"></div>
+            <div class="user-email"></div>
+            <div class="user-img"></div>
+            <button class="logout">登出</button>
+            <div class="link-home"><a href="./">繼續購物</a></div>
+        </main>
+        <footer>
+            <div class="view">
+                <div class="link">
+                    <div class="item">
+                        <a href="#">關於 Stylish</a>
+                    </div>
+                    <div class="item"><a href="#">服務條款</a></div>
+                    <div class="item">
+                        <a
+                            href="https://www.privacypolicies.com/live/456dabe7-e191-4d3b-a167-530565f5ad31"
+                            >隱私政策</a
+                        >
+                    </div>
+                </div>
+                <div class="link link-1">
+                    <div class="item"><a href="#">聯絡我們</a></div>
+                    <div class="item"><a href="#">FAQ</a></div>
+                </div>
+                <div class="connect">
+                    <a href="#"><img src="images/line.png" /></a>
+                    <a href="#"><img src="images/twitter.png" /></a>
+                    <a href="#"><img src="images/facebook.png" /></a>
+                </div>
+                <div class="copyright">© 2018. All rights reserved.</div>
+            </div>
+        </footer>
+        <script type="module" src="js/profile.js"></script>
+        <script type="module" src="js/cart.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+.item-feature .cart-number {
+    top: 45px;
+}
+.feature .item-search {
+    margin-bottom: 15px;
+}
+.search-img1 {
+    cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    .top-nav {
+        height: 72px;
+    }
+    .top-nav .feature {
+        margin: 0;
+    }
+
+    .item-search .search {
+        margin-top: 10px;
+    }
+    .item-search .search-img1 {
+        margin-top: 3px;
+    }
+}
+
+.main-profile {
+    width: 100%;
+    padding-top: 190px;
+    padding-bottom: 320px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+.main-content {
+    max-width: 1000px;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+.user-name {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.user-email {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.user-img img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100px;
+}
+
+.main-profile button {
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgba(196, 138, 51, 0.589);
+}
+
+.link-home {
+    margin-top: 30px;
+    color: black;
+}
